@@ -31,6 +31,10 @@ body.help h1 {
   color: #333;
 }
 
+body.help h2 {
+  color: #333;
+}
+
 body.help a.also {
   display: block;
   overflow: hidden;
