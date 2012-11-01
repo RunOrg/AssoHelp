@@ -19,6 +19,7 @@ body.help #page > .inner {
   background-color: white;
   overflow: hidden;
   color: #555;
+  padding-bottom: 40px;
 }
 
 body.help h1 {
@@ -32,6 +33,7 @@ body.help h1 {
 }
 
 body.help h2 {
+  margin-top: 50px;
   color: #333;
 }
 
@@ -39,6 +41,14 @@ body.help a.also {
   display: block;
   overflow: hidden;
   text-align: right;
+  color: #080;
+  padding: 4px 16px;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+body.help a.also:hover span {
+  text-decoration: underline;
 }
 
 body.help a.also span {
