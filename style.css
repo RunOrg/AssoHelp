@@ -1,0 +1,56 @@
+body.help {
+  background-color: #F0EFE3;
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+body.help #page {
+  width: 800px;
+  margin: 30px auto;
+  background-color: #555;
+  border-radius: 16px;
+  padding: 8px;
+}
+
+body.help #page > .inner {
+  border: 3px solid #333;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: white;
+  overflow: hidden;
+  color: #555;
+}
+
+body.help h1 {
+  margin: -16px -16px 20px;
+  padding: 8px 16px;
+  border-bottom: 1px solid #CCC;
+  background-color: #EEE;
+  line-height: 32px;
+  font-size: 28px;
+  color: #333;
+}
+
+body.help a.also {
+  display: block;
+  overflow: hidden;
+  text-align: right;
+}
+
+body.help a.also span {
+  display: inline-block;
+  padding: 0 20px;
+  background: url(/public/icon/bullet_go.png) left center no-repeat transparent;
+}
+
+body.help ul {
+  margin: 16px 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+body.help li {
+  margin-bottom: 8px;
+  padding-left: 20px;
+  background: url(/public/icon/bullet_blue.png) 0px 5px no-repeat;
+}
