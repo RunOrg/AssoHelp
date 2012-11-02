@@ -4,6 +4,29 @@ body.help {
   line-height: 1.5em;
 }
 
+body.help #head {
+  width: 800px;
+  margin: 30px auto;
+  height: 50px;
+}
+
+body.help #home {
+  background: url(/public/img/logo-50x50.png) left center no-repeat;
+  padding-left: 66px;
+  line-height: 50px;
+  font-size: 28px;
+  color: #E70079;
+  float: left;
+  font-weight: bold;
+}
+
+body.help #runorg {
+  float: right;
+  line-height: 50px;
+  color: #888;
+  height: 50px;
+} 
+
 body.help #page {
   width: 800px;
   margin: 30px auto;
