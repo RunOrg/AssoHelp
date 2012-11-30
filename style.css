@@ -91,3 +91,18 @@ body.help li {
   padding-left: 20px;
   background: url(/public/icon/bullet_blue.png) 0px 5px no-repeat;
 }
+
+body.help .screenshot {
+  border: 1px solid #111;
+  background-color: #EEE;
+  color: #111;
+  padding: 1px 1px 5px;
+  margin: 10px -2px; 
+  text-align: center;
+  font-size: 13px;
+}
+
+body.help .screenshot img {
+  display: block;
+  margin-bottom: 5px;
+}
