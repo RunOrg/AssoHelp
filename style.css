@@ -115,3 +115,10 @@ body.help .interesting {
   margin: 20px -32px;
   padding: 10px 32px 10px 80px;
 }
+
+
+body.help pre {
+  background-color: #DDDDDD;
+  font-size: 12px;
+  padding: 12px;
+}
