@@ -41,7 +41,7 @@ body.help #page > .inner {
   padding: 32px;
   background-color: white;
   overflow: hidden;
-  color: #555;
+  color: #333;
   padding-bottom: 40px;
 }
 
@@ -93,7 +93,7 @@ body.help li {
 }
 
 body.help .screenshot {
-  border: 1px solid #111;
+  border: 1px solid #CCC;
   background-color: #EEE;
   color: #111;
   padding: 1px 1px 5px;
@@ -105,4 +105,13 @@ body.help .screenshot {
 body.help .screenshot img {
   display: block;
   margin-bottom: 5px;
+}
+
+body.help .interesting {
+  background: url("img/help-greyscale.png") no-repeat scroll 32px center #EEE;
+  border-bottom: 1px solid #CCC;
+  border-top: 1px solid #CCC;
+  font-size: 13px;
+  margin: 20px -32px;
+  padding: 10px 32px 10px 80px;
 }
