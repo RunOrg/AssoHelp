@@ -53,11 +53,17 @@ body.help h1 {
   line-height: 32px;
   font-size: 28px;
   color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 body.help h2 {
   margin-top: 50px;
   color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 body.help a.also {
@@ -68,6 +74,8 @@ body.help a.also {
   padding: 4px 16px;
   line-height: 20px;
   font-size: 14px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 body.help a.also:hover span {
@@ -136,9 +144,32 @@ body.help .important {
   text-align: left;
 }
 
-
 body.help pre {
   background-color: #DDDDDD;
   font-size: 12px;
   padding: 12px;
 }
+
+body.help .faq h2 {
+  margin-top: 20px;
+}
+
+body.help .faq a + h2 {
+  margin-top: 50px;
+}
+
+body.help .faq a {
+  background: url("/public/icon/bullet_black.png") no-repeat scroll left center transparent;
+  color: #338;
+  display: block;
+  font-size: 17px;
+  padding: 2px 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+body.help .faq a:hover {
+  text-decoration: underline;
+}
+
